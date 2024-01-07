@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobby Jo Steffl - Portfolio</title>
+    <!-- If you're here, I assure you would be unimpressed by the lack of flare and animations; my passion isn't portfolio sites but design systems. I only aimed to use minimal code and good old-fashioned HTML & CSS. -->
     <!-- <link rel="stylesheet" href="https://use.typekit.net/vcr8oyl.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;400;500;600&family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="src/assets/styles/main.css" rel="stylesheet" />
     <link rel="apple-touch-icon" sizes="180x180" href="src/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="src/assets/images/favicon//favicon-32x32.png">
@@ -21,41 +22,50 @@
     <div class="l-site-wrapper l-site-wrapper--index">
         <include src="./header.html"></include>
         <main>
-            <div class="c-portfolio-description">
-                <img src="src/assets/images/bobbyjo-avatar.png" alt="White female in mid-thirties with blue eyes and blonde hair in gaming pixel form" />
-                <p class="c-callout-text">Hi, my name is Bobby Jo, I'm a curiosity-driven <a href="defining-ux-engineer.html" class="c-highlight">UX Engineer</a> with over twelve years of experience. <br/><br/> I enjoy exploring the intersection of design and code at scale.</p>
-                
-                <p class="u-flex u-m-flex u-justify-content-between"><span><strong>Pronouns:</strong> she/her</span><span><strong>Personality:</strong> <a class="u-padding-none" href="https://www.16personalities.com/intj-personality">INTJ-T</a></span></p>
-            </div>
-            <div class="c-divider u-d-display-none"></div>
             <div class="c-portfolio-work">
+                <section class="c-portfolio-description">
+                    <img src="src/assets/images/bobbyjo-avatar.png" alt="White female in mid-thirties with blue eyes and blonde hair in gaming pixel form" />
+                    <p class="c-callout-text">Hi, my name is Bobby Jo, I am passionate <a href="defining-ux-engineer.html" class="c-highlight">UX Engineer</a> who cares about creating scalable design systems and accessible user experiences.</p>
+                </section>
+                <div class="c-divider"></div>
                 <section>
                     <h1 class="h2">Summary</h1>
-                    <p>I am excited by opportunities to partner and create experiences with social impact, whether we're finding ways to co-create inclusively together or creating accessible web solutions for people to use.</p>
-                    <p>With a constant desire to learn, I'm investigating new ways to scale coding solutions and love the challenges that large enterprises can face. I'm motivated by helping customers meet their needs and technologies' ability to make people's lives easier and our responsibility to make solutions equitable.</p>
-                    <p>Hello, design systems! Currently, I am enjoying exploring problem spaces around making designers' and developers' jobs easier. I'm also pursuing IAAP WAS certification.</p>
-                </section>
-                <div class="c-divider u-d-display-none"></div>
-                <section class="c-portfolio-content">
-                    <h2>Projects</h2>
-                    <p>Check out some of my UX Engineering work allowed by my NDA agreements.</p>
-                    <article class="c-portfolio-group">
-                        <img src="src/assets/images/macbook-design-system.png" alt=" " aria-hidden="true" role="presentation" />
-                        <h3 class="u-margin-bottom-none"><a href="enterprise-design-system.html">Enterprise design system</a></h3>
-                        <p class="u-margin-top-none">A design system built for Thomson Reuters products, and its customers.</p>
-                    </article>
-                    <article class="c-portfolio-group">
-                        <img src="src/assets/images/panoramic-matter-maps.png" alt="Thomson Reuters Panoramic Matter Maps" />
-                        <h3 class="u-margin-bottom-none"><a href="productivity-tools.html">Legal productivity tools</a></h3>
-                        <p class="u-margin-top-none">A cloud-based legal workflow solution that brings together<br/> the practice and business of law.</p>
-                    </article>
-                    <article class="c-portfolio-group">
-                        <img src="src/assets/images/platform-graphic.png" alt=" " aria-hidden="true" role="presentation" />
-                        <h3 class="u-margin-bottom-none"><a href="product-development.html">Product development</a></h3>
-                        <p class="u-margin-top-none">Legal research and productivity product creation.</p>
-                    </article>
+                    <p><strong>Passionate UX Engineer | Design Systems Advocate | Accessibility Champion</strong><br/>I'm committed to creating inclusive and user-centered experiences. With over 13 years in front-end development, I approach design systems with a comprehensive mindset, ensuring they meet users' needs and are scalable and accessible.</p>
+
+                    <p><strong>Technical skills</strong><br/>Proficient in Web Components, Storybook, Style Dictionary, Figma, and Microsoft FAST. I also really love working with CSS.</p>
+                        
+                    <p><strong>Accessibility champion</strong><br/>Passionate about making technology accessible to everyone. I'm knowledgeable in WCAG guidelines and committed to implementing inclusive design practices. I believe in crafting digital experiences that empower users of all abilities and that it's not enough to meet standards; we must go above and beyond current web standards to ensure we're doing everything possible with the tools we have today.</p>
+                        
+                    <p><strong>Collaboration is key</strong><br/>I work closely with cross-functional teams to learn something new and deliver value for our customers. Embracing a continuous learning mindset, I seek new problem-solving approaches and feedback to grow.</p>
+                        
+                    <p><strong>What's next?</strong><br/>I am excited by the opportunities to integrate AI with design systems, from helping teams adopt to creating new experiences. Feel free to reach out for discussions on design systems, accessibility best practices, or anything UX-related.</p>
                 </section>
             </div>
+            <div class="c-divider"></div>
+            <section class="c-portfolio-wrapper">
+                <h2>Projects</h2>
+                <p class="u-margin-bottom-none">Check out some of my UX Engineering work allowed by my NDA agreements.</p>
+                <div class="c-portfolio-content">
+                <article class="c-portfolio-group">
+                    <img src="src/assets/images/macbook-design-system.png" alt=" " aria-hidden="true" role="presentation" />
+                    <h3 class="u-margin-bottom-none">Enterprise design system</h3>
+                    <p>A design system built for Thomson Reuters products, and its customers.</p>
+                    <p>Learn more about our <a href="enterprise-design-system.html">enterprise design system</a></p>
+                </article>
+                <article class="c-portfolio-group">
+                    <img src="src/assets/images/panoramic-matter-maps.png" alt="Thomson Reuters Panoramic Matter Maps" />
+                    <h3 class="u-margin-bottom-none">Legal productivity tools</h3>
+                    <p>A cloud-based legal workflow solution that brings together<br/> the practice and business of law.</p>
+                    <p>View <a href="productivity-tools.html">Legal productivity tools</a> project</p>
+                </article>
+                <article class="c-portfolio-group">
+                    <img src="src/assets/images/platform-graphic.png" alt=" " aria-hidden="true" role="presentation" />
+                    <h3 class="u-margin-bottom-none">Product development</h3>
+                    <p>Legal research and productivity product creation.</p>
+                    <p>View <a href="product-development.html">product development</a> details</p>
+                </article>
+                </div>
+            </section>
         </main>
         <include src="./footer.html"></include>
     </div>
